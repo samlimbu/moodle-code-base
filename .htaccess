@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^$ /moodle [L]
+#RewriteRule ^(.*)$ /test [R=301,L]
+#Redirect /moodle/login.php /test/
+#Redirect ^$ /moodle/login.php /test/
+#Redirect /moodle/ /test/index.html
